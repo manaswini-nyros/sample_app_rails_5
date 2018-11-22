@@ -1,3 +1,39 @@
-// Place all the styles related to the samples controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  padding:0;
+  margin: 0;
+  background-color:white;
+  
+}
+.header{
+  background-color:#064687;
+  color:white;
+  padding:1px;
+  margin:0;
+}
+.active{
+  background-color:#AFCCE9;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #064687;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#AFCCE9;
+    color:#064687 ;
+}
