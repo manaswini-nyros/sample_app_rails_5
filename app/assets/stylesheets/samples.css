@@ -3,24 +3,24 @@ body{
   padding:0;
 }
 .header h1{
-  background-color:black;
+  background-color:#113962;
   color:white;
   padding:20px;
   margin:0;
   text-decoration: none;
 }
 .topnav{
-  background-color:#16A085;
+  background-color:#113962;
   color:white;
   text-align:left;
-  padding:10px;
+  padding:15px;
   display:block;
 }
 .topnav a{
   text-decoration: none;
+  padding:20px; 
 }
 .topnav a:hover{
-  background-color: black;
   color:white;
   padding:11px;
 
@@ -31,7 +31,7 @@ body{
   padding: 11px; 
 }
 .body{
-  background: url("new.jpg");
+  background: url("/bgimg.jpg");
   background-repeat:cover;
   padding:10px 0 10px 5px;
   margin: 0;
@@ -56,13 +56,24 @@ body{
 }
 .feedback{
   padding:0 0 50px 0;
+  text-indent: 30px;
 }
 .feedback input{
   height: 30px;
   width: 400px;
+  border-radius: 20px;
+}
+.userdetails{
+  text-align:center;
+  margin-bottom: 11%;
+}
+.userform{
+  width:30%;
+  padding-left: 35%;
+  padding-top: 10%;
 }
 footer{
-  background:black;
+  background:#113962;
   color:white;
   padding:5px;
   margin: 0;

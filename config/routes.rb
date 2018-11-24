@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root to:"samples#home"	
   get '/home' => "samples#home"
-  get '/boardings/boardingpass' => "boardings#boardingpass"
+  get '/forms/form' => "forms#form"
 end
