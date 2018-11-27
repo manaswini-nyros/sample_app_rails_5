@@ -1,21 +1,19 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-     <title>Firstapp</title>
-     <%= csrf_meta_tags %>
-     <%= csp_meta_tag %>
-     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-  </head>
-  <body>
-    <div class="header">
-      <h1 align="left">Company logo and Name</h1>
-    </div>
-      <ul>
-         <li><a class="active" href="/home">Home</a></li>
-         <li style="float:right"><a href="/signin">Signin</a></li>
-      </ul>
-        <%= yield %>
-  </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firstapp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+  <div class="header">
+    <h1 align="left">Articles</h1>
+  </div>
+  <ul>
+   <li><a class="active" href="/home">Home</a></li>
+  </ul>
+  <%= yield %>
+</body>
+</html>
